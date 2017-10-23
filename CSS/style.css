@@ -1,0 +1,26 @@
+.bg-yellow{
+  background-color: #ffbe08;
+}
+nav .nav-link  {
+  color:#333338;
+}
+nav .registration-block a{
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  background-color: #333338;
+  padding: 4px 33.6px;
+  color: #F2F2F2;
+  border-radius: 20px;
+
+  /*position: absolute;*/
+
+}
+.hero{
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      background-position: center;
+      /*width: 350px;*/
+      height: 480px;
+      margin: 0 auto;
+}
