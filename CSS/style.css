@@ -1,5 +1,22 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
 .bg-yellow{
   background-color: #ffbe08;
+}
+nav .mb-logo{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  left: 50%;
+  margin-left: -59px;
+  top: 8px;
+
+}
+nav .mb-logo img{
+  width: 80px;
+
 }
 nav .nav-link  {
   color:#333338;
@@ -12,15 +29,56 @@ nav .registration-block a{
   padding: 4px 33.6px;
   color: #F2F2F2;
   border-radius: 20px;
-
-  /*position: absolute;*/
-
+}
+nav .logo-link{
+  text-decoration: none;
+  width: 80px;
+  padding: 0px !important;
+}
+nav .logo-holder{
+  position: absolute;
+}
+nav .logo-holder img{
+  width: 80px;
+  height: 80px;
+}
+.navbar-light .navbar-toggler{
+  border: none;
 }
 .hero{
       background-size: 100% auto;
       background-repeat: no-repeat;
       background-position: center;
-      /*width: 350px;*/
       height: 480px;
       margin: 0 auto;
+}
+section.about{
+  padding: 70px 0;
+}
+.rotated-about{
+  max-width: 400px;
+  float: left;
+  text-align: right;
+  /* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.fa-circle {
+  /*text-shadow: -7px 1px 1px lightgrey, -3px 5px lightgrey;*/
+  color: #ffbe08;
+  margin-left: 5px;
+}
+.video-holder{
+  float: left;
 }

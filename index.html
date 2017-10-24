@@ -6,6 +6,8 @@
     <title>Sociologija</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/da7d68fc96.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-yellow">
@@ -13,6 +15,9 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <div class="mb-logo">
+        <img src="img/logo.png" alt="">
+      </div>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav m-md-auto mr-auto">
@@ -32,8 +37,12 @@
           <li class="nav-item">
             <a class="nav-link" href="#">GALERIJA</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">LOGO</a>
+          <li class="nav-item d-none d-lg-block">
+            <a class="nav-link logo-link" href="#">
+              <div class="logo-holder">
+                <img src="img/logo.png" alt="">
+              </div>
+            </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">STUDIJOS</a>
@@ -45,15 +54,32 @@
             <a class="nav-link" href="#">ATSILIEPIMAI</a>
           </li>
       </div>
-      <div class="registration-block hidden-dm-down">
+      <div class="registration-block hidden-dm-down d-none d-lg-block">
         <a href="#">REGISTRUOKIS</a>
       </div>
     </nav>
 <section class="hero" style="background-image: url('img/slice12.jpg');">
-<!-- <img src="img/slice12.jpg" alt=""> -->
+
 </section>
 <section class="about">
-
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="rotated-about">
+          <h1>APIE<i class="fa fa-circle" aria-hidden="true"></i></h1>
+        </div>
+        <div class="video-holder">
+          <img src="img/team_img.png" style="width:300px;" alt="" data-toggle="modal" data-target=".video-modal">
+        </div>
+        </div>
+      <div class="col-md-6">
+        Sociologijos akademija - Neformali
+        organizacija, siekianti parodyti moksleiviams
+        kasdienio gyvenimo aspektus iš sociologijos
+        mokslo perspektyvos.
+      </div>
+    </div>
+  </div>
 </section>
 <section class="team">
 
@@ -76,6 +102,15 @@
 <section class="contacts">
 
 </section>
+<!-- Large modal -->
+
+<div class="modal fade video-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      ...
+    </div>
+  </div>
+</div>
   </body>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
