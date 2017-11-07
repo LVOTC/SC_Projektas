@@ -1,0 +1,125 @@
+.mb-logo h1{
+  display: none;
+  color: #fff;
+}
+section.about .rotated-about{
+  float: left;
+  text-align: right;
+  position: absolute;
+  left: -180px;
+  margin-top: -15px;
+  /* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+section.about .mobile-study h1{
+  text-align: center;
+  display: none;
+}
+section.about .rotated-about h1{
+  font-size: 46px;
+}
+section.about{
+  padding: 20px 0;
+}
+
+section.about h2{
+  text-align: center;
+  padding: 40px 0px;
+}
+section.about img{
+  padding: 10px 20px;
+}
+section.study-points{
+  background-color: #FFBE08;
+}
+section.study-points h3{
+  text-align: center;
+  padding: 100px 0px;
+  margin-bottom: 0px;
+}
+section.study-points table{
+  margin: 20px auto;
+}
+section.study-points .year{
+  text-align: center;
+}
+section.study-points .exam{
+  background-color: #fff;
+  width: 5px;
+  height: 5px;
+  font-size: 16px;
+}
+section.study-points .test{
+  background-color: #4E4D5C;
+  color: #fff;
+}
+section.study-points th, td{
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px;
+}
+section.study-points th{
+  padding-right: 10px;
+}
+section.study-points td{
+  border: 1px solid #FFBE08;
+}
+@media screen and (max-width: 770px){
+  section.about h1{
+    color: #000;
+  }
+  section.about .header-mobile{
+    display: block;
+  }
+}
+@media screen and (max-width: 990px){
+  section.about .rotated-about{
+    display: none;
+  }
+  nav .mb-logo{
+    margin-left: 0px;
+    left: 20%;
+  }
+  nav .mb-logo img{
+    display: none;
+  }
+  nav .mb-logo h1{
+    display: block;
+
+  }
+  section.about h2{
+    font-weight: 300;
+    font-size: 22px;
+    padding-bottom: 20px;
+    padding-top: 20px
+  }
+}
+@media screen and (max-width: 1030px){
+  section.about .rotated-about{
+    left: -120px
+  }
+}
+@media screen and (max-width: 1320px){
+
+  section.about .mobile-study h1{
+    font-size: 36px;
+    padding: 50px 0;
+    display: block;
+  }
+  section.about .rotated-about{
+    left: -130px
+  }
+
+}
