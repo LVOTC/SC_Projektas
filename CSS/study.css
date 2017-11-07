@@ -76,6 +76,28 @@ section.study-points th{
 section.study-points td{
   border: 1px solid #FFBE08;
 }
+section.form-box .form label{
+  display: block;
+}
+section.form-box .form{
+  padding: 100px 0;
+  padding-bottom: 150px;
+}
+section.form-box .form h4{
+  padding: 40px 0;
+}
+section.form-box .form a{
+  font-size: 14px;
+  float: right;
+  background-color:  #FFBE08;
+  color: #fff;
+  padding: 3px 30px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+section.form-box .form textarea{
+  width: 100%;
+}
 @media screen and (max-width: 770px){
   section.about h1{
     color: #000;
@@ -90,7 +112,7 @@ section.study-points td{
   }
   nav .mb-logo{
     margin-left: 0px;
-    left: 20%;
+    left: 70px;
   }
   nav .mb-logo img{
     display: none;
